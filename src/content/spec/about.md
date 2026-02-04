@@ -1,49 +1,31 @@
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/matsuzaka-yuki/mizuki) theme.
+## 🏠 Roka's room
 
-::github{repo="matsuzaka-yuki/Mizuki"}
+### 🔍 关于本站
+**这里是桜島芦花（Sakurajima Roka）的个人小站，一名沉浸于二次元与代码之间的中学生。本站由 Siroukin Team 共同维护，致力于在数字世界中打造一片兼具浪漫幻想与实用价值的自留地。**
 
-## 🌟 Theme Features
-
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
-
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+### 👤 关于站主
+**桜島芦花** ，性别并不重要，重要的是在此与你相遇。喜欢将东西写成文字，将灵感化作代码，在这个角落安静地编织属于自己的海洋。
 
 
-
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
-
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
-
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+### 👥 关于团队
+**Siroukin Team** 目前是一个正在组建中的开源项目与内容小组，尚无固定成员。我们始终保持开放，欢迎对**前端开发、程序创作、二次元文化**感兴趣的同好一起参与建设。如果你也喜欢安静地写代码、分享日常、整理漫评，或单纯想有个地方记录自己的足迹，欢迎随时联系。期待与你共同搭建这个小小的角落。
 
 ---
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+## 📂 本站内容  
+- **文章**：技术分享、创作随笔、生活漫谈  
+- **追番**：动画观看记录、评分与随想  
+- **日记**：日常碎片、心情与瞬间分享  
+- **设备**：正在使用的数字装备清单  
+- **友链**：同路人的站点收藏  
+- **项目展示**：个人或参与的开源与实践项目  
+- **技能展示**：持续生长的技能树  
+- **时间线**：成长与足迹的记录  
+
+
+---
+
+本网站采用 **Astro** 框架并使用 [Mizuki](https://github.com/matsuzaka-yuki/mizuki) 主题制作
+
+::github{repo="matsuzaka-yuki/Mizuki"}
