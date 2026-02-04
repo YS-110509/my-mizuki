@@ -31,7 +31,7 @@ export const timelineData: TimelineItem[] = [
 			"The new version of roka.ink, built upon Astro and Mizuki, has been established and is now operational.",
 		type: "project",
 		startDate: "2026-02-03",
-		skills: ["TypeScript","Astro","React","Node.js"],
+		skills: ["TypeScript","Astro","Tailwind CSS","Svelte"],
 		icon: "tabler:code",
 	},
 	{
