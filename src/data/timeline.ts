@@ -29,7 +29,7 @@ export const timelineData: TimelineItem[] = [
 		title: "Won the Second Place in the IRO",
 		description:
 			"Won the second place in the 21st IRO International Robot Olympiad.",
-		type: "education",
+		type: "achievement",
 		startDate: "2019-07-28",
 		endDate: "2019-07-30",
 		skills: ["Python", "EV3"],
