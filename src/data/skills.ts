@@ -198,7 +198,7 @@ export const skillsData: Skill[] = [
 			"A document-oriented NoSQL database with a flexible data model.",
 		icon: "logos:mongodb-icon",
 		category: "database",
-		level: "advanced",
+		level: "intermediate",
 		experience: { years: 3, months: 9 },
 		projects: [],
 		color: "#47A248",
