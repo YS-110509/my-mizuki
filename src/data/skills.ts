@@ -173,7 +173,7 @@ export const skillsData: Skill[] = [
 		icon: "logos:renpy",
 		category: "backend",
 		level: "advanced",
-		experience: { years: 0, months: 7 },
+		experience: { years: 1, months: 7 },
 		projects: [],
 		color: "#CC342D",
 	},
