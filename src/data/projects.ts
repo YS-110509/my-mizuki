@@ -42,7 +42,7 @@ export const projectsData: Project[] = [
 			"服务于郑州·大上海城二次元文化交流群的全新论坛型网站，由官网管理琥夏(Roka)老师负责制作，预计将于两周年当日上线。",
 		image: "",
 		category: "web",
-		techStack: ["TypeScrip", "React", "Next.js","MySQL"],
+		techStack: ["TypeScript", "React", "Next.js","MySQL"],
 		status: "in-progress",
 		sourceCode: "", // 更改为GitHub链接
 		visitUrl: "", // 添加前往项目链接
