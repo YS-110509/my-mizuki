@@ -20,77 +20,80 @@ export interface Project {
 
 export const projectsData: Project[] = [
 	{
-		id: "mizuki-blog",
-		title: "Mizuki Blog Theme",
+		id: "old-dshcacg",
+		title: "旧版 大上海城二次元交流群网站",
 		description:
-			"Modern blog theme developed based on the Astro framework, supporting multilingual, dark mode, and responsive design features.",
+			"服务于郑州·大上海城二次元文化交流群的宣传官网(已停止更新)，由管理层企划并作为一周年纪念特别礼送给所有的郑州二次元老师们。该网站拥有介绍、公告、分享、社区等功能。",
 		image: "",
 		category: "web",
-		techStack: ["Astro", "TypeScript", "Tailwind CSS", "Svelte"],
+		techStack: ["HTML5", "JavaScript", "CSS"],
 		status: "completed",
-		liveDemo: "https://blog.example.com",
-		sourceCode: "https://github.com/example/mizuki", // 更改为GitHub链接
-		visitUrl: "https://blog.example.com", // 添加前往项目链接
-		startDate: "2024-01-01",
-		endDate: "2024-06-01",
-		featured: true,
-		tags: ["Blog", "Theme", "Open Source"],
+		sourceCode: "https://github.com/dshcacg/acg/", // 更改为GitHub链接
+		visitUrl: "https://dshcacg.fun", // 添加前往项目链接
+		startDate: "2025-08-20",
+		endDate: "2025-10-01",
+		featured: false,
+		tags: ["静态网站", "社区","ACGN"],
 	},
 	{
-		id: "portfolio-website",
-		title: "Personal Portfolio",
+		id: "new-dshcacg",
+		title: "新版 郑州大上海城ACGN文化交流站",
 		description:
-			"Personal portfolio website showcasing project experience and technical skills.",
+			"服务于郑州·大上海城二次元文化交流群的全新论坛型网站，由官网管理琥夏(Roka)老师负责制作，预计将于两周年当日上线。",
 		image: "",
 		category: "web",
-		techStack: ["React", "Next.js", "TypeScript", "Framer Motion"],
-		status: "completed",
-		liveDemo: "https://portfolio.example.com",
-		sourceCode: "https://github.com/example/portfolio",
-		visitUrl: "https://portfolio.example.com", // 添加前往项目链接
-		startDate: "2023-09-01",
-		endDate: "2023-12-01",
-		featured: true,
-		tags: ["Portfolio", "React", "Animation"],
+		techStack: ["TypeScrip", "React", "Next.js","MySQL"],
+		status: "in-progress",
+		sourceCode: "", // 更改为GitHub链接
+		visitUrl: "", // 添加前往项目链接
+		startDate: "2025-10-01",
+		featured: false,
+		tags: ["论坛", "服务器","社交网站"],
 	},
 	{
-		id: "task-manager-app",
-		title: "Task Manager App",
+		id: "siroukin-player",
+		title: "Siroukin播放器",
 		description:
-			"Cross-platform task management application supporting team collaboration and project management.",
+			"由Siroukin Team制作的基于Python3.13的本地播放器。用户可在应用设置内编辑主题，应用可支持扫盘搜歌，自动匹配歌词。",
+		image: "",
+		category: "desktop",
+		techStack: ["Python","JavaScript"],
+		status: "in-progress",
+		sourceCode: "https://github.com/YS-110509/Siroukin-Player", // 更改为GitHub链接
+		visitUrl: "https://github.com/YS-110509/Siroukin-Player/archive/refs/heads/main.zip", // 添加前往项目链接
+		startDate: "2025-07-09",
+		featured: false,
+		tags: ["播放器", "Pygame","自定义主题"],
+	},
+	{
+		id: "mobile-roka",
+		title: "Roka's room移动端",
+		description:
+			"由Siroukin Team制作的服务于Android平台的Roka's room应用，在移动端中拥有资源库、小游戏等更多内容",
 		image: "",
 		category: "mobile",
-		techStack: ["React Native", "TypeScript", "Redux", "Firebase"],
-		status: "in-progress",
-		startDate: "2024-03-01",
-		tags: ["Mobile", "Productivity", "Team Collaboration"],
-	},
-	{
-		id: "data-visualization-tool",
-		title: "Data Visualization Tool",
-		description:
-			"Data visualization tool supporting multiple chart types and interactive analysis.",
-		image: "",
-		category: "web",
-		techStack: ["Vue.js", "D3.js", "TypeScript", "Node.js"],
-		status: "completed",
-		liveDemo: "https://dataviz.example.com",
-		visitUrl: "https://dataviz.example.com", // 添加前往项目链接
-		startDate: "2023-06-01",
-		endDate: "2023-11-01",
-		tags: ["Data Visualization", "Analytics", "Charts"],
-	},
-	{
-		id: "e-commerce-platform",
-		title: "E-commerce Platform",
-		description:
-			"Full-stack e-commerce platform including user management, product management, and order processing features.",
-		image: "",
-		category: "web",
-		techStack: ["Next.js", "Node.js", "PostgreSQL", "Stripe"],
+		techStack: ["Astro","TypeScript","Node.js","React"],
 		status: "planned",
-		startDate: "2024-07-01",
-		tags: ["E-commerce", "Full Stack", "Payment Integration"],
+		sourceCode: "", // 更改为GitHub链接
+		visitUrl: "", // 添加前往项目链接
+		startDate: "2026-02-04",
+		featured: true,
+		tags: ["资源库", "小游戏","频道"],
+	},
+	{
+		id: "simple-space-plane",
+		title: "极简风太空战机",
+		description:
+			"Roka在学校里上信息课时无聊花30分钟写出来的纯代码极简风太空战机小游戏，左右键移动空格键发射，然后就没了。",
+		image: "",
+		category: "mobile",
+		techStack: ["Python"],
+		status: "desktop",
+		sourceCode: "https://github.com/YS-110509/simple-space-plane", // 更改为GitHub链接
+		visitUrl: "https://github.com/YS-110509/simple-space-plane/archive/refs/heads/main.zip", // 添加前往项目链接
+		startDate: "2024-04-15",
+		featured: false,
+		tags: ["小游戏"],
 	},
 ];
 
