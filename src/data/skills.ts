@@ -170,7 +170,7 @@ export const skillsData: Skill[] = [
 		name: "Ren'Py",
 		description:
 			"Ren'Py is an open-source visual novel engine based on Python, specifically designed for creating interactive storytelling games.",
-		icon: "logos:renpy",
+		icon: "devicon:renpy",
 		category: "backend",
 		level: "advanced",
 		experience: { years: 1, months: 7 },
@@ -248,7 +248,7 @@ export const skillsData: Skill[] = [
 			"A professional Python IDE by JetBrains providing intelligent code analysis and debugging features.",
 		icon: "logos:pycharm",
 		category: "tools",
-		level: "advanced",
+		level: "intermediate",
 		experience: { years: 4, months: 0 },
 		projects: [],
 		color: "#21D789",
@@ -264,6 +264,18 @@ export const skillsData: Skill[] = [
 		experience: { years: 1, months: 5 },
 		projects: [],
 		color: "#FCC624",
+	},
+	{
+		id: "vercel",
+		name: "Vercel",
+		description:
+			"The platform primarily provides front-end application hosting, serverless function deployment, and global CDN acceleration services. It supports automatic building of GitHub repositories and is deeply integrated with the Next.js framework.",
+		icon: "lineicons:vercel",
+		category: "other",
+		level: "advanced",
+		experience: { years: 0, months: 8 },
+		projects: [],
+		color: "#2F2F4F",
 	},
 ];
 
