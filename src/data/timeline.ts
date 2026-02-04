@@ -25,14 +25,89 @@ export interface TimelineItem {
 
 export const timelineData: TimelineItem[] = [
 	{
+		id: "the-new-version-of-rokaink-based-on-Mizuki",
+		title: "The New Version of roka.ink Based on Mizuki",
+		description:
+			"The new version of roka.ink, built upon Astro and Mizuki, has been established and is now operational.",
+		type: "project",
+		startDate: "2026-02-03",
+		skills: ["TypeScript","Astro","React","Node.js"],
+		icon: "tabler:code",
+	},
+	{
+		id: "participate-in-the-csp-j-and-csp-s",
+		title: "participate in the CSP-J and CSP-S",
+		description:
+			"I participated in both CSP-J and CSP-S. Without undergoing systematic learning of CSP-S knowledge, my score in CSP-S was only 1.5 points away from advancing to the next level.",
+		type: "achievement",
+		startDate: "2025-09-20",
+		endDate: "2025-09-20",
+		skills: ["C++"],
+		icon: "material-symbols:trophy",
+	},
+	{
+		id: "production-of-the-new-version-of-dshcacg",
+		title: "Production of the New Version of DSHCACG",
+		description:
+			"The new version of Zhengzhou Great Shanghai City Anime Cultural Exchange Station, produced by the Siroukin team （supervised by Roka）",
+		type: "project",
+		startDate: "2025-11-29",
+		skills: ["TypeScript","React","Next.js"],
+		icon: "tabler:code",
+	},
+	{
+		id: "personal-website-established",
+		title: "Personal Website Established",
+		description:
+			"The prototype of this website (roka.ink) has been established and is now operational",
+		type: "project",
+		startDate: "2025-08-08",
+		endDate: "2026-02-02",
+		skills: ["JavaScript","HTML","CSS"],
+		icon: "tabler:code",
+	},
+	{
+		id: "build-a-display-screen-in-the-game",
+		title: "Build a Display Screen in the Game",
+		description:
+			"In the original version of the game <Minecraft>, a scrolling display screen capable of writing, reading, deleting, and cycling display can be created using redstone circuits.",
+		type: "project",
+		startDate: "2024-07-01",
+		endDate: "2024-07-01",
+		skills: ["Minecraft"],
+		icon: "tabler:code",
+	},
+	{
+		id: "first-participate-in-the-csp-j",
+		title: "First participate in the CSP-J",
+		description:
+			"I participated in CSP-J for the first time and reached the score threshold for the first prize, but I did not advance to the next round.",
+		type: "achievement",
+		startDate: "2024-09-21",
+		endDate: "2024-09-21",
+		skills: ["C++"],
+		icon: "material-symbols:trophy",
+	},
+	{
+		id: "join-the-sti-club-in-middle-school",
+		title: "Join The STI Club In Middle School",
+		description:
+			"Joined the science and innovation club in middle school and served as the club president. Represented the school in multiple provincial and municipal information literacy competitions by practicing with the programming club.",
+		type: "education",
+		startDate: "2023-09-06",
+		endDate: "2025-06-25",
+		skills: ["Python"],
+		icon: "material-symbols:school",
+	},
+	{
 		id: "won-the-second-place-in-the-iro",
 		title: "Won the Second Place in the IRO",
 		description:
 			"Won the second place in the 21st IRO International Robot Olympiad.",
 		type: "achievement",
-		startDate: "2019-07-28",
-		endDate: "2019-07-30",
-		skills: ["Python", "EV3"],
+		startDate: "2019-07-29",
+		endDate: "2019-07-29",
+		skills: ["EV3"],
 		icon: "material-symbols:trophy",
 		featured: true,
 	},
@@ -44,7 +119,7 @@ export const timelineData: TimelineItem[] = [
 		type: "education",
 		startDate: "2019-07-01",
 		endDate: "2019-07-27",
-		skills: ["Python", "EV3"],
+		skills: ["EV3"],
 		icon: "material-symbols:school",
 	},
 ];
