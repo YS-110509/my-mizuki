@@ -247,7 +247,7 @@ export const skillsData: Skill[] = [
 		description:
 			"Ren'Py is an open-source visual novel engine based on Python, specifically designed for creating interactive storytelling games.",
 		icon: "devicon:renpy",
-		category: "backend",
+		category: "tools",
 		level: "advanced",
 		experience: { years: 1, months: 7 },
 		projects: [],
