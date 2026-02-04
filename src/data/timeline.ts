@@ -33,7 +33,7 @@ export const timelineData: TimelineItem[] = [
 		startDate: "2019-07-28",
 		endDate: "2019-07-30",
 		skills: ["Python", "EV3"],
-		icon: "material-symbols:school",
+		icon: "material-symbols:trophy",
 		featured: true,
 	},
 	{
