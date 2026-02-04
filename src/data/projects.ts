@@ -86,14 +86,29 @@ export const projectsData: Project[] = [
 		description:
 			"Roka在学校里上信息课时无聊花30分钟写出来的纯代码极简风太空战机小游戏，左右键移动空格键发射，然后就没了。",
 		image: "",
-		category: "mobile",
+		category: "desktop",
 		techStack: ["Python"],
-		status: "desktop",
+		status: "completed",
 		sourceCode: "https://github.com/YS-110509/simple-space-plane", // 更改为GitHub链接
 		visitUrl: "https://github.com/YS-110509/simple-space-plane/archive/refs/heads/main.zip", // 添加前往项目链接
 		startDate: "2024-04-15",
 		featured: false,
 		tags: ["小游戏"],
+	},
+	{
+		id: "pygame-zip",
+		title: "Pygame合集",
+		description:
+			"一个整合了众多Pygame作品的综合Python应用，以tkinter为导航连接至各Pygame应用。",
+		image: "",
+		category: "desktop",
+		techStack: ["Python"],
+		status: "planned",
+		sourceCode: "", // 更改为GitHub链接
+		visitUrl: "", // 添加前往项目链接
+		startDate: "2025-06-10",
+		featured: false,
+		tags: ["小游戏","合集应用","招募中"],
 	},
 ];
 
