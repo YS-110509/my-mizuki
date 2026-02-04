@@ -165,18 +165,6 @@ export const skillsData: Skill[] = [
 		projects: [],
 		color: "#A8B9CC",
 	},
-	{
-		id: "renpy",
-		name: "Ren'Py",
-		description:
-			"Ren'Py is an open-source visual novel engine based on Python, specifically designed for creating interactive storytelling games.",
-		icon: "devicon:renpy",
-		category: "backend",
-		level: "advanced",
-		experience: { years: 1, months: 7 },
-		projects: [],
-		color: "#CC342D",
-	},
 
 	// Database Skills
 	{
@@ -254,16 +242,16 @@ export const skillsData: Skill[] = [
 		color: "#21D789",
 	},
 	{
-		id: "linux",
-		name: "Linux",
+		id: "renpy",
+		name: "Ren'Py",
 		description:
-			"An open-source operating system, the preferred choice for server deployment and development environments.",
-		icon: "logos:linux-tux",
-		category: "tools",
-		level: "beginner",
-		experience: { years: 1, months: 5 },
+			"Ren'Py is an open-source visual novel engine based on Python, specifically designed for creating interactive storytelling games.",
+		icon: "devicon:renpy",
+		category: "backend",
+		level: "advanced",
+		experience: { years: 1, months: 7 },
 		projects: [],
-		color: "#FCC624",
+		color: "#CC342D",
 	},
 	{
 		id: "vercel",
