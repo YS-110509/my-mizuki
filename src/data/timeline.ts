@@ -36,7 +36,7 @@ export const timelineData: TimelineItem[] = [
 	},
 	{
 		id: "participate-in-the-csp-j-and-csp-s",
-		title: "participate in the CSP-J and CSP-S",
+		title: "Participate in the CSP-J and CSP-S",
 		description:
 			"I participated in both CSP-J and CSP-S. Without undergoing systematic learning of CSP-S knowledge, my score in CSP-S was only 1.5 points away from advancing to the next level.",
 		type: "achievement",
