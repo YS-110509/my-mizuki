@@ -277,6 +277,18 @@ export const skillsData: Skill[] = [
 		projects: [],
 		color: "#2F2F4F",
 	},
+	{
+		id: "ev3",
+		name: "EV3",
+		description:
+			"The third-generation MINDSTORMS intelligent robot platform can be connected via USB, Bluetooth, or Wi-Fi and is compatible with a wide range of sensors.",
+		icon: "cbi:lego",
+		category: "other",
+		level: "expert",
+		experience: { years: 7, months: 6 },
+		projects: [],
+		color: "#2F2F4F",
+	},
 ];
 
 // Get skill statistics
