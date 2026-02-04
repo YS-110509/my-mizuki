@@ -269,7 +269,7 @@ export const skillsData: Skill[] = [
 		id: "vercel",
 		name: "Vercel",
 		description:
-			"The platform primarily provides front-end application hosting, serverless function deployment, and global CDN acceleration services. It supports automatic building of GitHub repositories and is deeply integrated with the Next.js framework.",
+			"The platform primarily provides front-end application hosting, serverless function deployment, and global CDN acceleration services.",
 		icon: "lineicons:vercel",
 		category: "other",
 		level: "advanced",
