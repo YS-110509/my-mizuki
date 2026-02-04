@@ -22,8 +22,8 @@ import { LinkPreset } from "./types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
-	title: "Roka",
-	subtitle: "Roka's room",
+	title: "Roka's room,
+	subtitle: "芦花の小屋",
 	siteURL: "https://www.roka.ink/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2025-08-08", // 站点开始运行日期，用于站点统计组件计算运行天数
 
@@ -67,7 +67,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	bangumi: {
-		userId: "1208936", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		userId: "sai", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
 		fetchOnDev: true, // 是否在开发环境下获取 Bangumi 数据（默认 false），获取前先执行 pnpm build 构建 json 文件
 	},
 
