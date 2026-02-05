@@ -1,10 +1,10 @@
 {
-	"title": "Some lovely pictures",
-	"hidden": false,
-	"description": "The world is vast, and you have to go explore it.",
+	"title": "一些动漫图片,
+	"hidden": true,
+	"description": "仅作测试使用",
 	"date": "2025-08-01",
 	"location": "Bilibili",
-	"tags": ["Kawai", "Cute", "Moe"],
+	"tags": ["Kawaii", "Cute", "Moe"],
 	"layout": "masonry",
 	"columns": 3
 }
