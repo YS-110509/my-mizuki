@@ -16,9 +16,9 @@ const diaryData: DiaryItem[] = [
 	{
 		id: 1,
 		content:
-			"The falling speed of cherry blossoms is five centimeters per second!",
-		date: "2025-01-15T10:30:00Z",
-		images: ["/images/diary/sakura.jpg", "/images/diary/1.jpg"],
+			"如果你在2月16日晚上22点36分开始观看《超时空辉夜姬》，那么你将在新年第一秒看到辉夜向彩叶表白求婚！",
+		date: "2026-01-31T09:12:00Z",
+		images: ["/images/diary/1-1.jpg"],
 	},
 ];
 
