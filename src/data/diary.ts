@@ -20,6 +20,13 @@ const diaryData: DiaryItem[] = [
 		date: "2026-01-31T09:12:00Z",
 		images: ["/images/diary/1-1.jpg"],
 	},
+	{
+		id: 2,
+		content:
+			"早樱拍谷圣地丹林樱花谷",
+		date: "2026-02-05T16:36:13Z",
+		images: ["/images/diary/2-1.jpg"],
+	},
 ];
 
 // 获取日记统计数据
