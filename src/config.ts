@@ -115,11 +115,11 @@ export const siteConfig: SiteConfig = {
 		src: {
 			desktop: [
 				"https://konachan.net/sample/a0d42938cb327e1f9cdb1dc546c30413/Konachan.com%20-%20381489%20sample.jpg",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
-				"/assets/desktop-banner/5.webp",
-				"/assets/desktop-banner/6.webp",
+				"https://konachan.net/sample/28751b6175559f4e8997fce68a5e35e2/Konachan.com%20-%20392064%20sample.jpg",
+				"https://konachan.net/jpeg/3bf572aa3062273e2a9c486c8e56c2b9/Konachan.com%20-%20306613%20aqua_eyes%20blush%20brown_hair%20festival%20fireworks%20headphones%20japanese_clothes%20long_hair%20nakano_miku%20saya_%28mychristian2%29%20sky%20summer%20yukata.jpg",
+				"https://konachan.net/sample/f6b14fc60007551e91e2536d4aa76a6d/Konachan.com%20-%20305021%20sample.jpg",
+				"https://konachan.net/sample/7c7cc4fe9f14fba9cb537ea6fa71618e/Konachan.com%20-%20382948%20sample.jpg",
+				"https://konachan.net/sample/e956666bd25c79bc2b80c1a33df0ecaf/Konachan.com%20-%20260084%20sample.jpg",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/1.webp",
