@@ -235,7 +235,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			], // 桌面横幅图片
 		mobile: [
 			"https://img0.baidu.com/it/u=3493401660,4199379599&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
-			"https://bkimg.cdn.bcebos.com/pic/cdbf6c81800a19d8bc3e9ead57ac958ba61ea8d3e847",
+			"https://img2.huashi6.com/images/resource/2020/09/04/h84136744p0.png?imageMogr2/quality/100/interlace/1/thumbnail/2000x%3E/format/jpeg",
 			"https://img2.baidu.com/it/u=1913778823,2307497336&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=800",
 			"https://img2.huashi6.com/images/resource/thumbnail/2022/11/27/18583_6837924354.jpg?imageMogr2/quality/100/interlace/1/thumbnail/2000x%3E",				"https://konachan.net/sample/7c7cc4fe9f14fba9cb537ea6fa71618e/Konachan.com%20-%20382948%20sample.jpg",
 			"https://konachan.net/sample/826d62a8cfcf9f027ced1898cc260aa3/Konachan.com%20-%20357249%20sample.jpg"
@@ -419,7 +419,7 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
 		envId: "https://mongodb-ecru-two.vercel.app/",
 		lang: SITE_LANG,
@@ -432,7 +432,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "Ciallo～ようこそ、戻ってきてください～今日も君はしっかりしなさいね～", // 公告内容
+	content: "音乐播放器、看板娘、评论区因BUG正在抢修，暂停开放", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
