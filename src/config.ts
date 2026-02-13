@@ -123,7 +123,7 @@ export const siteConfig: SiteConfig = {
 			], // 桌面横幅图片
 			mobile: [
 				"https://img0.baidu.com/it/u=3493401660,4199379599&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
-				"https://bkimg.cdn.bcebos.com/pic/cdbf6c81800a19d8bc3e9ead57ac958ba61ea8d3e847",
+				"https://img2.huashi6.com/images/resource/2020/09/04/h84136744p0.png?imageMogr2/quality/100/interlace/1/thumbnail/2000x%3E/format/jpeg",
 				"https://img2.baidu.com/it/u=1913778823,2307497336&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=800",
 				"https://img2.huashi6.com/images/resource/thumbnail/2022/11/27/18583_6837924354.jpg?imageMogr2/quality/100/interlace/1/thumbnail/2000x%3E",
 				"https://konachan.net/sample/7c7cc4fe9f14fba9cb537ea6fa71618e/Konachan.com%20-%20382948%20sample.jpg",
