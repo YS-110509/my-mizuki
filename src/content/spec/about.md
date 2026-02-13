@@ -23,9 +23,3 @@
 - **技能展示**：持续生长的技能树  
 - **时间线**：成长与足迹的记录  
 
-
----
-
-本网站采用 **Astro** 框架并使用 [Mizuki](https://github.com/matsuzaka-yuki/mizuki) 主题制作
-
-::github{repo="matsuzaka-yuki/Mizuki"}
