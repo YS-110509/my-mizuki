@@ -431,12 +431,12 @@ export const shareConfig: ShareConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "", // 公告标题，填空使用i18n字符串Key.announcement
+	title: "2026/2/14", // 公告标题，填空使用i18n字符串Key.announcement
 	content: "音乐播放器、看板娘、评论区因BUG正在抢修，暂停开放", // 公告内容
-	closable: true, // 允许用户关闭公告
+	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
-		text: "Learn More", // 链接文本
+		text: "关于本站", // 链接文本
 		url: "/about/", // 链接 URL
 		external: false, // 内部链接
 	},
