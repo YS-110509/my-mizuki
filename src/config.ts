@@ -122,10 +122,10 @@ export const siteConfig: SiteConfig = {
 				"https://konachan.net/sample/826d62a8cfcf9f027ced1898cc260aa3/Konachan.com%20-%20357249%20sample.jpg",
 			], // 桌面横幅图片
 			mobile: [
-				"https://konachan.net/sample/a0d42938cb327e1f9cdb1dc546c30413/Konachan.com%20-%20381489%20sample.jpg",
-				"https://konachan.net/sample/28751b6175559f4e8997fce68a5e35e2/Konachan.com%20-%20392064%20sample.jpg",
-				"https://konachan.net/sample/e956666bd25c79bc2b80c1a33df0ecaf/Konachan.com%20-%20260084%20sample.jpg",
-				"https://konachan.net/sample/f6b14fc60007551e91e2536d4aa76a6d/Konachan.com%20-%20305021%20sample.jpg",
+				"https://img0.baidu.com/it/u=3493401660,4199379599&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
+				"https://bkimg.cdn.bcebos.com/pic/cdbf6c81800a19d8bc3e9ead57ac958ba61ea8d3e847",
+				"https://img2.baidu.com/it/u=1913778823,2307497336&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=800",
+				"https://img2.huashi6.com/images/resource/thumbnail/2022/11/27/18583_6837924354.jpg?imageMogr2/quality/100/interlace/1/thumbnail/2000x%3E",
 				"https://konachan.net/sample/7c7cc4fe9f14fba9cb537ea6fa71618e/Konachan.com%20-%20382948%20sample.jpg",
 				"https://konachan.net/sample/826d62a8cfcf9f027ced1898cc260aa3/Konachan.com%20-%20357249%20sample.jpg",
 			], // 移动横幅图片
@@ -232,14 +232,13 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"https://konachan.net/sample/f6b14fc60007551e91e2536d4aa76a6d/Konachan.com%20-%20305021%20sample.jpg",
 			"https://konachan.net/sample/7c7cc4fe9f14fba9cb537ea6fa71618e/Konachan.com%20-%20382948%20sample.jpg",
 			"https://konachan.net/sample/826d62a8cfcf9f027ced1898cc260aa3/Konachan.com%20-%20357249%20sample.jpg",
-		], // 桌面横幅图片
+			], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/1.webp",
-			"/assets/mobile-banner/2.webp",
-			"/assets/mobile-banner/3.webp",
-			"/assets/mobile-banner/4.webp",
-			"/assets/mobile-banner/5.webp",
-			"/assets/mobile-banner/6.webp",
+			"https://img0.baidu.com/it/u=3493401660,4199379599&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
+			"https://bkimg.cdn.bcebos.com/pic/cdbf6c81800a19d8bc3e9ead57ac958ba61ea8d3e847",
+			"https://img2.baidu.com/it/u=1913778823,2307497336&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=800",
+			"https://img2.huashi6.com/images/resource/thumbnail/2022/11/27/18583_6837924354.jpg?imageMogr2/quality/100/interlace/1/thumbnail/2000x%3E",				"https://konachan.net/sample/7c7cc4fe9f14fba9cb537ea6fa71618e/Konachan.com%20-%20382948%20sample.jpg",
+			"https://konachan.net/sample/826d62a8cfcf9f027ced1898cc260aa3/Konachan.com%20-%20357249%20sample.jpg"
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -433,7 +432,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "Ciallo～おかえりなさい！今日もいい日ですよ～", // 公告内容
+	content: "Ciallo～ようこそ、戻ってきてください～今日も君はしっかりしなさいね～", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -444,7 +443,7 @@ export const announcementConfig: AnnouncementConfig = {
 };
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: true, // 启用音乐播放器功能
+	enable: false, // 启用音乐播放器功能
 	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
 		"https://www.bilibili.uno/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
