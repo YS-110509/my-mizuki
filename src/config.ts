@@ -419,9 +419,9 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
-		envId: "https://mongodb-ecru-two.vercel.app/",
+		envId: "https://twikooapi-ten.vercel.app/",
 		lang: SITE_LANG,
 	},
 };
@@ -432,7 +432,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "本站公告", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "2026/2/14：①音乐播放器、看板娘、评论区因BUG正在抢修，暂停开放； ②因不可抗因素本站早期文章全部丢失，正在处理中", // 公告内容
+	content: "2026/2/14：因不可抗因素本站早期文章全部丢失，正在处理中", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
