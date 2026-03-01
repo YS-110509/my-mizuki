@@ -36,6 +36,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://dshcacg.fun/",
 		tags: ["ACGN", "线下活动", "社区"],
 	},
+	{
+		id: 4,
+		title: "哔哩轻小说",
+		imgurl: "https://www.linovelib.com/favicon.ico",
+		desc: "一款页面简介、资源完整的轻小说文库阅读站。",
+		siteurl: "https://www.linovelib.com/",
+		tags: ["轻小说", "文库"],
+	},
 ];
 
 // 获取所有友情链接数据
