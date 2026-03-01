@@ -1498,13 +1498,11 @@ input.addEventListener('keypress', function(e) {
 推荐资源：
 - [MDN Web Docs](https://developer.mozilla.org/zh-CN/)（最权威的Web技术文档）
 - [W3School](https://www.w3school.com.cn/)（中文入门教程）
-- [《可塑性记忆》官方设定集](https://example.com)（假设）
+- [《可塑性记忆》官网](https://www.plastic-memories.jp/sp/index.html)
 
 ---
 
 ## 🎁 完整项目代码
-
-为了方便你直接使用，下面附上所有文件的最终代码。请按照以下结构创建文件。
 
 ### 文件结构
 
@@ -2508,4 +2506,5 @@ document.addEventListener('DOMContentLoaded', function() {
 感谢你跟随Roka完成这段从零到入门的HTML旅程。希望这个以《可塑性记忆》为背景的项目，能让你在学习技术的同时，也重温那份感动。如果你有任何问题或作品展示，欢迎在评论区留言。
 
 **愿你能与重要的人，有一天能够再次相遇。**
+
 
