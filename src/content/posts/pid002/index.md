@@ -2,7 +2,7 @@
 title: "Ren'Py引擎基础教程"
 published: 2026-02-24
 pinned: false
-description: 一份基于《可塑性记忆》原作的Ren'Py入门教程，从零开始教你制作视觉小说。
+description: 基于《可塑性记忆》原作的Ren'Py教程，从零开始教你制作视觉小说。
 tags: ["Ren'Py", "视觉小说", "教程", "可塑性记忆"]
 category: "教程"
 licenseName: "CC BY-NC-SA 4.0"
@@ -464,3 +464,4 @@ else:
 > ✨ **小提示**：保持脚本整洁，多利用 `#` 注释，及时备份项目。遇到问题先查文档，再到社区提问。
 
 **愿你能与重要的人，有一天能够再次相遇。** 
+
