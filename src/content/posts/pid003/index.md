@@ -7,7 +7,7 @@ tags: ["HTML", "CSS", "JavaScript" , "教程", "可塑性记忆"]
 category: "教程"
 licenseName: "CC BY-NC-SA 4.0"
 author: "さくらじま ろか"
-sourceLink: "https://github.com/YS-110509/my-mizuki/tree/master/src/content/posts/pid003"
+sourceLink: "https://roka.ink/posts/pid003/"
 draft: false
 date: 2026-02-28
 image: "./images/cover.png"
@@ -2506,6 +2506,7 @@ document.addEventListener('DOMContentLoaded', function() {
 感谢你跟随Roka完成这段从零到入门的HTML旅程。希望这个以《可塑性记忆》为背景的项目，能让你在学习技术的同时，也重温那份感动。如果你有任何问题或作品展示，欢迎在评论区留言。
 
 **愿你能与重要的人，有一天能够再次相遇。**
+
 
 
 
