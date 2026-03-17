@@ -25,7 +25,7 @@ export const friendsData: FriendItem[] = [
 		title: "星网",
 		imgurl: "https://gimovo.com/favicon.ico",
 		desc: "由GIMOVO STUDIO制作并管理的大型综合性论坛。",
-		siteurl: "https://society.gimovo.com/",
+		siteurl: "https://gimovo.com/",
 		tags: ["论坛", "音乐讨论", "游戏讨论", "美术讨论"],
 	},
 	{
@@ -43,6 +43,14 @@ export const friendsData: FriendItem[] = [
 		desc: "一款页面简介、资源完整的轻小说文库阅读站。",
 		siteurl: "https://www.linovelib.com/",
 		tags: ["轻小说", "文库"],
+	},
+	{
+		id: 5,
+		title: "有希日记",
+		imgurl: "https://www.mysqil.com/favicon.ico",
+		desc: "以日轻资源整理为主的资源型论坛。",
+		siteurl: "https://www.mysqil.com/",
+		tags: ["轻小说", "游戏开发","虚拟现实","论坛"],
 	},
 ];
 
