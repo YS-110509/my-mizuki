@@ -32,7 +32,7 @@ export const friendsData: FriendItem[] = [
 		id: 3,
 		title: "大上海城ACGN交流群",
 		imgurl: "https://dshcacg.fun/images/logo.jpg",
-		desc: "郑州大上海城二次元交流群的初代官网，目前该版本已停止更新。",
+		desc: "郑州大上海城二次元交流群的官网",
 		siteurl: "https://dshcacg.fun/",
 		tags: ["ACGN", "线下活动", "社区"],
 	},
@@ -59,6 +59,14 @@ export const friendsData: FriendItem[] = [
 		desc: "数学生的古早拼贴风格网站",
 		siteurl: "https://xnmoe.com",
 		tags: ["博客", "网站开发"],
+	},
+	{
+		id: 7,
+		title: "素翎工坊",
+		imgurl: "https://siroukin.roka.ink/assets/home/home.webp",
+		desc: "一隅偏安的技术与幻想之乡",
+		siteurl: "https://siroukin.roka.ink",
+		tags: ["网站开发", "游戏开发"]
 	},
 ];
 
