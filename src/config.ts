@@ -25,8 +25,8 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
 	title: "芦花家",
-	subtitle: "Rokaの博客",
-	siteURL: "https://www.roka.ink/", // 请替换为你的站点URL，以斜杠结尾
+	subtitle: "芦花酱的博客",
+	siteURL: "https://cn.roka.ink/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2025-08-08", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
@@ -44,7 +44,7 @@ export const siteConfig: SiteConfig = {
 		diary: true, // 日记页面开关
 		friends: true, // 友链页面开关
 		projects: true, // 项目页面开关
-		skills: true, // 技能页面开关
+		skills: false, // 技能页面开关
 		timeline: false, // 时间线页面开关
 		albums: true, // 相册页面开关
 		devices: true, // 设备页面开关
@@ -169,11 +169,11 @@ export const siteConfig: SiteConfig = {
 			title: "欢迎回家~", // 主页横幅主标题
 
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
-				"今日はなんでもない日。でも、ちょっとだけいい日",
+				"虽然没什么特别的，但有你就足够了",
+				"至今你仍是我的光",
+				"你啊，不知不觉间已经成了我每天生活的一部分了",
+				"和你聊天，每天都会变得稍微快乐一点",
+				"今天是平平常常的一天。不过，也还算不错的一天",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -287,7 +287,7 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/YS-110509",
+					url: "https://github.com/SakurajimaRoka",
 					external: true,
 					icon: "fa7-brands:github",
 				},
@@ -360,11 +360,6 @@ export const navBarConfig: NavBarConfig = {
 					url: "/projects/",
 					icon: "material-symbols:work",
 				},
-				{
-					name: "Skills",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},
 			],
 		},
 	],
@@ -392,7 +387,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/YS-110509",
+			url: "https://github.com/SakurajimaRoka",
 		},
 	],
 };
@@ -467,8 +462,9 @@ export const shareConfig: ShareConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "本站公告", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "26年4月5日已修复音乐播放器功能; 祝大家在芦花家玩得开心~", // 公告内容
+	title: "公告栏", // 公告标题，填空使用i18n字符串Key.announcement
+	content:
+		"由于Bangumi被长城防火墙隔离，中国大陆用户无法查看追番，理解万岁！", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -491,7 +487,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 };
 
 export const footerConfig: FooterConfig = {
-	enable: false, // 是否启用Footer HTML注入功能
+	enable: true, // 是否启用Footer HTML注入功能
 	customHtml: "", // HTML格式的自定义页脚信息，例如备案号等，默认留空
 	// 也可以直接编辑 FooterConfig.html 文件来添加备案号等自定义内容
 	// 注意：若 customHtml 不为空，则使用 customHtml 中的内容；若 customHtml 留空，则使用 FooterConfig.html 文件中的内容
