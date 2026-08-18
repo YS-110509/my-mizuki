@@ -7,7 +7,7 @@ tags: ["Ren'Py", "视觉小说", "教程", "可塑性记忆"]
 category: "教程"
 licenseName: "CC BY-NC-SA 4.0"
 author: "さくらじま ろか"
-sourceLink: "https://roka.ink/posts/pid002/"
+sourceLink: "https://cn.roka.ink/posts/pid002/"
 draft: false
 date: 2026-02-24
 image: "./images/cover.png"
