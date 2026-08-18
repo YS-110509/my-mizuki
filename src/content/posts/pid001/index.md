@@ -7,7 +7,7 @@ tags: [日本, 时政, 讲谈社]
 category: 八卦
 licenseName: "CC BY-SA 4.0"
 author: さくらじま ろか
-sourceLink: "https://roka.ink/posts/pid001/"
+sourceLink: "https://cn.roka.ink/posts/pid001/"
 draft: false
 date: 2026-02-08
 image: "./images/1.jpeg"
