@@ -7,7 +7,7 @@ tags: ["HTML", "CSS", "JavaScript" , "教程", "可塑性记忆"]
 category: "教程"
 licenseName: "CC BY-NC-SA 4.0"
 author: "さくらじま ろか"
-sourceLink: "https://roka.ink/posts/pid003/"
+sourceLink: "https://cn.roka.ink/posts/pid003/"
 draft: false
 date: 2026-02-28
 image: "./images/cover.png"
